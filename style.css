@@ -1,20 +1,44 @@
+/* ✔ contains valid CSS
+✔ has a rule for the <body> tag
+1) sets <body> background to #00b3e6
+✔ has a rule for <div> tags
+2) sets <div> width to 700px
+3) sets <div> margin to auto
+4) sets <div> font-family to 'Helvetica Neue'
+5) sets <div> background to white
+6) sets <div> padding to 30px
+✔ has a rule for elements with an id of main-header
+7) sets #main-header font-size to 22px
+✔ has a rule for elements with a class of perspective-questions
+8) sets .perspective-questions font-style to italic */
+
+
+
 /* Tag selector to select the 'body' element */
 body {
   /* Your code here! */
+  background: #00b3e6;
 }
 
 /* Tag selector to select all 'div' elements. We only have one 'div' in our HTML */
 div {
   /* Your code here! */
+  width: 700px;
+  margin: auto;
+  font-family: "Helvetica Neue";
+  background: white;
+  padding: 30px;
 }
 
 /* ID selector to select the element with id 'main-header' */
 #main-header {
   /* Your code here! */
   color: red;
+  font-size: 22px;
 }
 
 /* Class selector to select elements containing the class 'perspective-questions' */
 .perspective-questions {
   /* Your code here! */
+  font-style: italic;
 }
